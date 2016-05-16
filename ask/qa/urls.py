@@ -6,7 +6,7 @@ from . import views
 urlpatterns = [
     url(
         regex=r'^$',
-        view='',
+        view=views.test,
         name='question_list'
     ),
     url(
@@ -16,37 +16,37 @@ urlpatterns = [
     ),
     url(
         regex=r'^popular/$',
-        view='',
+        view=views.test,
         name='question_popular'
     ),
     url(
         regex=r'^ask/$',
-        view='',
+        view=views.test,
         name='question_ask'
     ),
     url(
         regex=r'^answer/$',
-        view='',
+        view=views.test,
         name='question_answer'
     ),
     url(
         regex=r'^signup/$',
-        view='',
+        view=views.test,
         name='signup'
     ),
     url(
         regex=r'^login/$',
-        view='',
+        view=views.test,
         name='login'
     ),
     url(
         regex=r'^logout/$',
-        view='',
+        view=views.test,
         name='logout'
     ),
     url(
         regex=r'^new/$',
-        view='',
+        view=views.test,
         name='question_new'
     ),
 ]
